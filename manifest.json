@@ -1,0 +1,13 @@
+{
+  "name": "Ungoogled Chromium Extension Installer",
+  "version": "1.0",
+  "description": "easier way to install extensions from the chrome's webstore",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus",
+    "https://chrome.google.com/webstore/detail/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
