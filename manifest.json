@@ -1,6 +1,6 @@
 {
   "name": "Ungoogled Chromium Extension Installer",
-  "version": "1.0",
+  "version": "1.1",
   "description": "easier way to install extensions from the chrome's webstore",
   "manifest_version": 2,
   "permissions": [
