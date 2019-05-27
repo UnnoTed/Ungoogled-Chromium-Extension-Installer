@@ -12,7 +12,7 @@ chrome.contextMenus.create({
         extension_id = extension_id.substr(0, q);
       }
 
-      const url = `https://clients2.google.com/service/update2/crx?response=redirect&prodversion=${version}&x=id%3D${extension_id}%26installsource%3Dondemand%26uc`;
+      const url = `https://clients2.google.com/service/update2/crx?response=redirect&prodversion=${version}&x=id%3D${extension_id}%26installsource%3Dondemand%26uc&acceptformat=crx3`;
       window.open(url, "_blank");
     });
   }
